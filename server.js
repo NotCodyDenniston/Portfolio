@@ -2,7 +2,7 @@ const path = require('./frontend');
 const express = require('express');
 const app = express();
 const port = process.env.PORT || 3000;
-const publicPath = path.join(Portfolio, '..', 'frontend');
+const publicPath = path.join(Portfolio, '..', 'frontend/public');
 
 app.use(express.static(publicPath));
 
