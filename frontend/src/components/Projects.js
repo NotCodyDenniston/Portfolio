@@ -2,6 +2,7 @@ import React from "react";
 import nasa from './images/NASA-WEBSITE.png'
 import html5 from './images/html-5.png'
 import grid from './images/GRID.png'
+import quiz from './images/Redux-quiz.png'
 
 import Project from "./Project";
 
@@ -23,9 +24,9 @@ export default function Projects(){
         },
         {
             'id':3,
-            "img": html5,
-            "description": "description",
-            "url": 'https://github.com/NotCodyDenniston/nasa-photo-of-the-day'
+            "img": quiz,
+            "description": "An basic quiz application for practicing redux and advanced state management. ",
+            "url": 'https://github.com/NotCodyDenniston/web-sprint-challenge-advanced-state'
         }
     ]
 
