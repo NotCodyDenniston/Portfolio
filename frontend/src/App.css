@@ -69,8 +69,8 @@ nav {
 
 .home h3{
   width: 60%;
-    margin-bottom: 10%;
-    text-align: left;
+  margin-bottom: 10%;
+  text-align: left;
 }
 
  /* ABOUT */
@@ -136,6 +136,45 @@ img{
   width: 60%;
   text-align: left;
   margin-bottom: 10%;
+}
+
+/* PROJECTS */
+
+h4 {
+  margin-top: 5%;
+}
+
+.project-container {
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+flex-wrap: wrap;
+align-items: center;
+margin-left: 10%;
+margin-right: 10%;
+
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+ 
+}
+
+.project img{
+  max-width: 50%;
+  height: auto;
+}
+
+.grow-1 {
+  display: flex;
+  flex-grow: 1;
 }
 
  @media screen and (max-width: 1023px) {
