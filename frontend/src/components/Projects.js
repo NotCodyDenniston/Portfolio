@@ -13,7 +13,7 @@ export default function Projects(){
         {
             'id':4,
             "img": instagram,
-            "description": "A basic instagram clone made with React.js for the purpose of learning prop drilling and data mapping",
+            "description": "An instagram clone!!! Made with React.js for the purpose of learning prop drilling and data mapping.",
             "url": 'https://github.com/NotCodyDenniston/React-Components-Insta-Clone'
         },
         {
