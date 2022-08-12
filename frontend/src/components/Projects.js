@@ -1,8 +1,8 @@
 import React from "react";
 import nasa from './images/NASA-WEBSITE.png'
-import html5 from './images/html-5.png'
 import grid from './images/GRID.png'
 import quiz from './images/Redux-quiz.png'
+import instagram from './images/instagram-clone.png'
 
 import Project from "./Project";
 
@@ -10,6 +10,12 @@ import Project from "./Project";
 export default function Projects(){
 
     const projectData = [
+        {
+            'id':4,
+            "img": instagram,
+            "description": "A simple but cool website made with the NASA API that gives you a a different 'photo of the day' along with a description",
+            "url": 'https://github.com/NotCodyDenniston/nasa-photo-of-the-day'
+        },
         {
             'id':1,
             "img": nasa,
