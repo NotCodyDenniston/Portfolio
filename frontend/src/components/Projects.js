@@ -13,8 +13,8 @@ export default function Projects(){
         {
             'id':4,
             "img": instagram,
-            "description": "A simple but cool website made with the NASA API that gives you a a different 'photo of the day' along with a description",
-            "url": 'https://github.com/NotCodyDenniston/nasa-photo-of-the-day'
+            "description": "A basic instagram clone made with React.js for the purpose of learning prop drilling and data mapping",
+            "url": 'https://github.com/NotCodyDenniston/React-Components-Insta-Clone'
         },
         {
             'id':1,
